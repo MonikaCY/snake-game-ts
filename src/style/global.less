@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  background-color: #607d8b;
+  height: 100%;
+}
+
+.game-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.game-layer {
+  background-color: white;
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  .game-scene {
+    flex-shrink: 0;
+    width: 600px;
+    border-right: 1px solid #eee;
+    height: 100%;
+  }
+  .game-desc {
+    position: relative;
+    width: 400px;
+    .title {
+      text-align: center;
+    }
+  }
+}
